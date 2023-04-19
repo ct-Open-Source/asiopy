@@ -13,5 +13,8 @@ def b():
     print(f"b() {time.time()-t0:.1f}s")
 
 t0 = time.time()
-a()
-b()
+def main():
+    a()
+    b()
+
+main()

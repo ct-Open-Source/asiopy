@@ -13,11 +13,12 @@ async def b():
     time.sleep(1)
     print(f"b() {time.time()-t0:.1f}s")
 
-t0 = time.time()
 
+t0 = time.time()
 async def main():
-    await a()
-    await b()
-    print("Ende.")
+    task1 = asyncio.create_task(a())
+    task2 = asyncio.create_task(b())
+    await task1
+    await task2
 
 asyncio.run(main())

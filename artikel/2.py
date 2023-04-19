@@ -15,6 +15,10 @@ async def b():
 
 
 t0 = time.time()
-def main():
-    await a()
-    await b()
+async def main():
+    task1 = asyncio.create_task(a())
+    task2 = asyncio.create_task(b())
+    await task1
+    await task2
+
+main()
