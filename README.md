@@ -1,6 +1,6 @@
 # Asynchroner I/O mit Python
 
-In diesem Repository finden Sie den in c’t !!!/2023, S. !!! besprochenen Python-Code: [1.py](artikel/1.py), [2.py](artikel/2.py), [3.py](artikel/3.py) und [4.py](artikel/4.py) spiegeln die Entwicklungsschritte wider, [nanodirb.py](artikel/nanodirb.py) ist der abgedruckte rudimentäre Dirb-Klon und [dirb.py](dirb.py) die asynchron funktionierende Nachimplementierung (nicht 1:1) des originalen [Dirb](https://manpages.debian.org/bullseye/dirb/dirb.1.en.html).
+In diesem Repository finden Sie den in c’t besprochenen Python-Code: [1.py](artikel/1.py), [2.py](artikel/2.py), [3.py](artikel/3.py) und [4.py](artikel/4.py) spiegeln die Entwicklungsschritte wider, [nanodirb.py](artikel/nanodirb.py) ist der abgedruckte rudimentäre Dirb-Klon und [dirb.py](dirb.py) die asynchron funktionierende Nachimplementierung (nicht 1:1) des originalen [Dirb](https://manpages.debian.org/bullseye/dirb/dirb.1.en.html).
 
 ## Vorbereiten
 
